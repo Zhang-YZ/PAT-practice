@@ -1,2 +1,2 @@
 # PAT-practice
-Daily exercise
+daily exercise
