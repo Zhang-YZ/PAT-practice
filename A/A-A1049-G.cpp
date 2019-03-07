@@ -32,11 +32,11 @@ int main() {
 		if (now_num == 1) {
 			ans += count + old_number + 1;
 		}
-		if (now_num > 1 && now_num < 10) {
-			ans += count * (now_num)+pow(10, i);
+		else if (now_num > 1 && now_num < 10) {
+			ans += count * (now_num)+temp;
 		}
-		old_number += now_num * pow(10, i);
-		count = count * 10 + pow(10, i);
+		old_number += now_num * temp;
+		count = count * 10 + temp;
 	}
 	cout << ans;
 	system("pause");
